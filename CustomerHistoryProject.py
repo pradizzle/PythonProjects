@@ -48,4 +48,4 @@ for line in lines:
 for user in viewed_items.keys():
     common_items = viewed_items[user].intersection(added_items[user])
     if common_items:
-        print(f"User {user} viewed and added the following items to cart: {', '.join(sorted(common_items))}")
+        print(f"User {user} viewed and added the following items to Cart: {', '.join(sorted(common_items))}")
